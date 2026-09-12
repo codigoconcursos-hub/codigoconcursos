@@ -25,7 +25,14 @@ function App() {
         </header>
 
         <section className="flex flex-1 flex-col items-center justify-center py-16 text-center">
-          <PMESPLogo />
+          <div className="flex flex-col items-center gap-10 md:flex-row md:gap-16">
+            <PMESPLogo />
+            <img 
+              src="/uploads/Logo_PMESP.png" 
+              alt="Brasão Oficial da Polícia Militar de São Paulo" 
+              className="h-40 w-auto object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)] sm:h-44" 
+            />
+          </div>
           <p className="mt-12 text-xs font-bold uppercase tracking-[0.35em] text-gold">Estado de São Paulo</p>
           <h1 className="mt-4 max-w-2xl text-4xl font-black tracking-tight sm:text-6xl">Servir e proteger</h1>
           <p className="mt-5 max-w-lg text-base leading-7 text-white/65 sm:text-lg">
