@@ -37,12 +37,14 @@ function App() {
               <p className="max-w-md text-sm leading-6 text-white/65 sm:text-base">
                 Um item que representa tradição, honra e o orgulho de servir. Disponível por tempo limitado.
               </p>
-              <button
-                type="button"
-                className="mt-2 rounded-full bg-gold px-8 py-3 text-sm font-bold uppercase tracking-[0.2em] text-navy transition hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-gold/40"
+              <a
+                href="https://hotmart.com/pt-br/marketplace/produtos/apostilas-pmesp-plano-de-estudos/E107558581C"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-block rounded-full bg-gold px-8 py-3 text-sm font-bold uppercase tracking-[0.2em] text-navy transition hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-gold/40"
               >
                 Garantir o meu agora
-              </button>
+              </a>
             </div>
           </div>
         </section>
