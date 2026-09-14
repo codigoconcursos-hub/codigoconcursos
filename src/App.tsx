@@ -12,7 +12,7 @@ function App() {
           <img 
             src="/uploads/Logo_PMESP.png" 
             alt="Brasão Oficial da Polícia Militar de São Paulo" 
-            className="h-48 w-auto object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)] sm:h-56 md:h-64" 
+            className="relative z-10 h-48 w-auto object-contain drop-shadow-[0_16px_32px_rgba(0,0,0,0.45)] sm:h-56 md:h-64" 
           />
           <p className="mt-12 text-xs font-bold uppercase tracking-[0.35em] text-gold">Estado de São Paulo</p>
           <h1 className="mt-4 max-w-2xl text-4xl font-black tracking-tight sm:text-6xl">Servir e proteger</h1>
