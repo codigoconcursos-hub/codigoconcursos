@@ -47,6 +47,14 @@ function App() {
           </div>
         </section>
 
+        <section className="mb-8 flex flex-col items-center gap-3 text-center">
+          <p className="text-xs font-bold uppercase tracking-[0.35em] text-gold">Feito por quem passou pela prova</p>
+          <p className="max-w-md text-sm leading-6 text-white/65 sm:text-base">
+            Antes de ensinar o caminho, nós tivemos que percorrê-lo.
+          </p>
+          <p className="text-sm font-semibold text-white/80">Criador e professor do Código Concursos</p>
+        </section>
+
         <footer className="flex flex-col items-center gap-4 border-t border-white/10 pt-5 text-center text-xs">
           <img
             src="/uploads/Logo_PMESP.png"
