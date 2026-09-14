@@ -47,8 +47,13 @@ function App() {
           </div>
         </section>
 
-        <footer className="border-t border-white/10 pt-5 text-center text-xs text-white/40">
-          Polícia Militar do Estado de São Paulo
+        <footer className="flex flex-col items-center gap-4 border-t border-white/10 pt-5 text-center text-xs text-white/40">
+          <img
+            src="/uploads/Logo_PMESP.png"
+            alt="Brasão Oficial da Polícia Militar de São Paulo"
+            className="h-16 w-auto object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)] sm:h-20"
+          />
+          <span>Polícia Militar do Estado de São Paulo</span>
         </footer>
       </div>
     </main>
