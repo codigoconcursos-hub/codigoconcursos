@@ -38,7 +38,7 @@ function App() {
                 Um item que representa tradição, honra e o orgulho de servir. Disponível por tempo limitado.
               </p>
               <a
-                href="https://hotmart.com/pt-br/marketplace/produtos/apostilas-pmesp-plano-de-estudos/E107558581C"
+                href="https://pay.hotmart.com/E107558581C"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 inline-block rounded-full bg-gold px-8 py-3 text-sm font-bold uppercase tracking-[0.2em] text-navy transition hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-gold/40"
