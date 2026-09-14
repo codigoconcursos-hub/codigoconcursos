@@ -41,6 +41,31 @@ function App() {
           <div className="mt-10 h-1 w-16 rounded-full bg-gold" />
         </section>
 
+        <section className="mb-8 rounded-3xl border border-gold/40 bg-white/5 px-6 py-10 shadow-[0_20px_40px_rgba(0,0,0,0.35)] sm:px-12">
+          <div className="flex flex-col items-center gap-8 text-center md:flex-row md:justify-between md:text-left">
+            <img
+              src="/uploads/Logo_PMESP.png"
+              alt="Brasão Oficial da Polícia Militar de São Paulo"
+              className="h-32 w-auto object-contain drop-shadow-[0_12px_24px_rgba(0,0,0,0.35)] sm:h-40"
+            />
+            <div className="flex flex-col items-center gap-4 md:items-start">
+              <p className="text-xs font-bold uppercase tracking-[0.35em] text-gold">Edição oficial</p>
+              <h2 className="max-w-md text-2xl font-black tracking-tight sm:text-3xl">
+                Leve o símbolo da PMESP com você
+              </h2>
+              <p className="max-w-md text-sm leading-6 text-white/65 sm:text-base">
+                Um item que representa tradição, honra e o orgulho de servir. Disponível por tempo limitado.
+              </p>
+              <button
+                type="button"
+                className="mt-2 rounded-full bg-gold px-8 py-3 text-sm font-bold uppercase tracking-[0.2em] text-navy transition hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-gold/40"
+              >
+                Garantir o meu agora
+              </button>
+            </div>
+          </div>
+        </section>
+
         <footer className="border-t border-white/10 pt-5 text-center text-xs text-white/40">
           Polícia Militar do Estado de São Paulo
         </footer>
